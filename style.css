@@ -1,0 +1,319 @@
+/* ------------------------------ Pagina Index ------------------------------ */
+
+.home {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+
+.Gatips {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.Inicio {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Gaturiosidades {
+    border: 1px black solid;
+    background-color: #efddd1;
+    display: flex;
+    justify-content: center;
+}
+
+.Image {
+    width: auto;
+    height: 300px;
+}
+
+.Curiosidades {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Texto-curiosidades {
+    background-color: #efddd1;
+
+}
+
+.footer {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    list-style: none;
+}
+/* ------------------------------- Animaciones Index ------------------------------ */
+
+.Image:hover{
+    transform: translate(200px);
+    transition: 1s;
+}
+
+.Curiosidades:hover{
+    transform: translate(200px);
+    transition: 1s;
+}
+
+.Patita:hover{
+    transform: rotate(100deg) scale(1) 
+}
+
+/* ------------------------------ Pagina Cuidados ------------------------------ */
+
+
+.cuidadoshome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+.cuidadosheader {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cuidadosimage {
+    width: auto;
+}
+
+.cuidadosaseo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.textoaseo {
+    background-color: #efddd1;
+}
+
+.cuidadoscepillo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.textocepillo {
+    background-color: #efddd1;
+}
+
+.cuidadosfooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* ------------------------- Pagina de Alimentacion ------------------------- */
+
+.alimentacionhome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+
+
+
+.alimentacionheader {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.textoalimentacion {
+    background-color: #efddd1;
+}
+
+.servircomida {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.alimentacionfooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* --------------------------- Pagina de Adopcion --------------------------- */
+
+.adopcionhome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+.adopcionheader {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.adopcionimage {
+    width: auto;
+}
+
+.adopcionnuevo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.adopciontexto {
+    background-color: #efddd1;
+}
+
+.adopcionfooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+/* ------------------------- Pagina de Entrenamiento ------------------------ */
+
+.entrenamientohome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+
+
+
+
+.entrenamientoheader {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+
+.gif {
+    width: auto;
+}
+
+.entrenamientotitulo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.entrenamientotexto {
+    background-color: #efddd1;
+}
+
+.entrenamientofooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* --------------------------- Pagina de Contacto --------------------------- */
+
+.contactohome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+.contactotitulo {
+    background-color: #efddd1;
+    font-size: 25px;
+}
+
+
+.gmail {
+    background-color: #efddd1;
+}
+
+.contactofooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
