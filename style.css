@@ -131,6 +131,16 @@
     align-items: flex-end;
     justify-content: space-between;
 }
+/* -------------------------- Animaciones Cuidados -------------------------- */
+
+.cuidadosimage:hover{
+    transform: translate(200px);
+    transition: 1s;
+}
+
+.Patita:hover{
+    transform: rotate(100deg) scale(1) 
+}
 
 /* ------------------------- Pagina de Alimentacion ------------------------- */
 
@@ -174,6 +184,12 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+}
+
+/* -------------------------- Animaciones Alimentacion -------------------------- */
+
+.Patita:hover{
+    transform: rotate(100deg) scale(1) 
 }
 
 /* --------------------------- Pagina de Adopcion --------------------------- */
@@ -266,6 +282,13 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+}
+
+/* ------------------------- Animacion Entrenamiento ------------------------ */
+
+.gif:hover{
+    transform: translate(200px);
+    transition: all 1s;
 }
 
 /* --------------------------- Pagina de Contacto --------------------------- */
