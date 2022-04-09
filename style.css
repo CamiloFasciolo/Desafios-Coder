@@ -36,11 +36,13 @@
 }
 
 .Image {
+    margin: 1rem;
     width: auto;
     height: 300px;
 }
 
 .Curiosidades {
+    margin: 1rem;
     width: auto;
     display: flex;
     justify-content: center;
@@ -318,8 +320,17 @@
     justify-content: space-between;
 }
 
+/* ------------------------------ Bootstrap CSS ----------------------------- */
 
+.bg-gatips{
+    background-color: #efddd1;
+}
 
+.navbar-text{
+    color: black;
+    border: 1px black solid;
+    font-family: 'Fredoka One', cursive;
+}
 
 
 
