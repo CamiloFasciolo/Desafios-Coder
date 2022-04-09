@@ -99,6 +99,7 @@
 
 
 .cuidadosimage {
+    margin: 1rem;
     width: auto;
 }
 
@@ -112,6 +113,7 @@
 }
 
 .textoaseo {
+    margin: 1rem;
     background-color: #efddd1;
 }
 
@@ -125,6 +127,7 @@
 }
 
 .textocepillo {
+    margin: 1rem;
     background-color: #efddd1;
 }
 
@@ -170,6 +173,7 @@
 
 
 .textoalimentacion {
+    margin: 1rem;
     background-color: #efddd1;
 }
 
@@ -228,6 +232,7 @@
 }
 
 .adopciontexto {
+    margin: 1rem;
     background-color: #efddd1;
 }
 
@@ -264,6 +269,7 @@
 
 
 .gif {
+    margin: 1rem;
     width: auto;
 }
 
@@ -277,6 +283,7 @@
 }
 
 .entrenamientotexto {
+    margin: 1rem;
     background-color: #efddd1;
 }
 
