@@ -1,3 +1,25 @@
+/* ------------------------- Inicio Pagina de carga ------------------------- */
+.miau{
+    display: flex;
+    justify-content: center;
+}
+
+.carga{
+    width: 436px;
+    height: 436px;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.carga:hover{
+ transform: rotate(40deg) scale(1);
+ transition: 1s;
+}
+
+/* --------------------------- Fin Pagina de carga -------------------------- */
+
+
 /* ------------------------------ Pagina Index ------------------------------ */
 
 .home {
