@@ -1,9 +1,18 @@
 /* ------------------------- Inicio Pagina de carga ------------------------- */
+.homecarga{
+    background-color: #f0e1cc;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+
 .miau{
     display: flex;
     justify-content: center;
 }
 
+/* --------------------------- Fin Pagina de carga -------------------------- */
+
+/* ----------------------- Animaciones Pagina de carga ---------------------- */
 .carga{
     width: 436px;
     height: 436px;
@@ -16,8 +25,7 @@
  transform: rotate(40deg) scale(1);
  transition: 1s;
 }
-
-/* --------------------------- Fin Pagina de carga -------------------------- */
+/* --------------------- Fin animaciones Pagina de carga -------------------- */
 
 
 /* ------------------------------ Pagina Index ------------------------------ */
