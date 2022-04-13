@@ -1,11 +1,11 @@
 /* ------------------------- Inicio Pagina de carga ------------------------- */
-.homecarga{
+.homecarga {
     background-color: #d19035;
     font-family: 'Fredoka One', cursive;
     font-size: 30px;
 }
 
-.miau{
+.miau {
     display: flex;
     justify-content: center;
 }
@@ -13,7 +13,7 @@
 /* --------------------------- Fin Pagina de carga -------------------------- */
 
 /* ----------------------- Animaciones Pagina de carga ---------------------- */
-.carga{
+.carga {
     width: 436px;
     height: 436px;
     display: flex;
@@ -21,10 +21,11 @@
     margin-top: 100px;
 }
 
-.carga:hover{
- transform: rotate(40deg) scale(1);
- transition: 1s;
+.carga:hover {
+    transform: rotate(40deg) scale(1);
+    transition: 1s;
 }
+
 /* --------------------- Fin animaciones Pagina de carga -------------------- */
 
 
@@ -91,20 +92,21 @@
     justify-content: space-between;
     list-style: none;
 }
+
 /* ------------------------------- Animaciones Index ------------------------------ */
 
-.Image:hover{
+.Image:hover {
     transform: translate(200px);
     transition: 1s;
 }
 
-.Curiosidades:hover{
+.Curiosidades:hover {
     transform: translate(200px);
     transition: 1s;
 }
 
-.Patita:hover{
-    transform: rotate(100deg) scale(1) 
+.Patita:hover {
+    transform: rotate(100deg) scale(1)
 }
 
 /* ------------------------------ Pagina Cuidados ------------------------------ */
@@ -167,15 +169,16 @@
     align-items: flex-end;
     justify-content: space-between;
 }
+
 /* -------------------------- Animaciones Cuidados -------------------------- */
 
-.cuidadosimage:hover{
+.cuidadosimage:hover {
     transform: translate(200px);
     transition: 1s;
 }
 
-.Patita:hover{
-    transform: rotate(100deg) scale(1) 
+.Patita:hover {
+    transform: rotate(100deg) scale(1)
 }
 
 /* ------------------------- Pagina de Alimentacion ------------------------- */
@@ -225,8 +228,8 @@
 
 /* -------------------------- Animaciones Alimentacion -------------------------- */
 
-.Patita:hover{
-    transform: rotate(100deg) scale(1) 
+.Patita:hover {
+    transform: rotate(100deg) scale(1)
 }
 
 /* --------------------------- Pagina de Adopcion --------------------------- */
@@ -326,7 +329,7 @@
 
 /* ------------------------- Animacion Entrenamiento ------------------------ */
 
-.gif:hover{
+.gif:hover {
     transform: translate(200px);
     transition: all 1s;
 }
@@ -360,32 +363,12 @@
 
 /* ------------------------------ Bootstrap CSS ----------------------------- */
 
-.bg-gatips{
+.bg-gatips {
     background-color: #efddd1;
 }
 
-.navbar-text{
+.navbar-text {
     color: black;
     border: 1px black solid;
     font-family: 'Fredoka One', cursive;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
