@@ -1,0 +1,416 @@
+
+/* ------------------------- Inicio Pagina de carga ------------------------- */
+.homecarga{
+    background-color: #d19035;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+
+.miau{
+    display: flex;
+    justify-content: center;
+}
+
+/* --------------------------- Fin Pagina de carga -------------------------- */
+
+/* ----------------------- Animaciones Pagina de carga ---------------------- */
+.carga{
+    width: 436px;
+    height: 436px;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.carga:hover{
+transform: rotate(40deg) scale(1);
+transition: 1s;
+}
+/* --------------------- Fin animaciones Pagina de carga -------------------- */
+
+
+/* ------------------------------ Pagina Index ------------------------------ */
+
+.home {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+.header-index{
+    margin-bottom: 1rem;
+    width: auto;
+}
+
+
+.Gatips {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.Inicio {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Gaturiosidades {
+    border: 1px black solid;
+    background-color: #efddd1;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.Image {
+    margin: 1rem;
+    width: auto;
+    height: 300px;
+}
+
+.Curiosidades {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Texto-curiosidades {
+    margin-left: 1rem;
+    background-color: #efddd1;
+
+}
+
+.footer {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    list-style: none;
+}
+/* ------------------------------- Animaciones Index ------------------------------ */
+
+.Image:hover{
+    transform: translate(200px);
+    transition: 1s;
+}
+
+.Curiosidades:hover{
+    transform: translate(200px);
+    transition: 1s;
+}
+
+.Patita:hover{
+    transform: rotate(100deg) scale(1) 
+}
+
+/* ------------------------------ Pagina Cuidados ------------------------------ */
+
+
+.cuidadoshome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+.cuidadosheader {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cuidadosimage {
+    margin: 1rem;
+    width: auto;
+}
+
+.cuidadosaseo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.textoaseo {
+    margin: 1rem;
+    background-color: #efddd1;
+}
+
+.cuidadoscepillo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.textocepillo {
+    margin: 1rem;
+    background-color: #efddd1;
+}
+
+.cuidadosfooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+/* -------------------------- Animaciones Cuidados -------------------------- */
+
+.cuidadosimage:hover{
+    transform: translate(200px);
+    transition: 1s;
+}
+
+.Patita:hover{
+    transform: rotate(100deg) scale(1) 
+}
+
+/* ------------------------- Pagina de Alimentacion ------------------------- */
+
+.alimentacionhome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+
+
+
+.alimentacionheader {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.textoalimentacion {
+    margin: 1rem;
+    background-color: #efddd1;
+}
+
+.servircomida {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.alimentacionfooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* -------------------------- Animaciones Alimentacion -------------------------- */
+
+.Patita:hover{
+    transform: rotate(100deg) scale(1) 
+}
+
+/* --------------------------- Pagina de Adopcion --------------------------- */
+
+.adopcionhome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+.adopcionheader {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.adopcionimage {
+    width: auto;
+}
+
+.adopcionnuevo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.adopciontexto {
+    margin: 1rem;
+    background-color: #efddd1;
+}
+
+.adopcionfooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+/* ------------------------- Pagina de Entrenamiento ------------------------ */
+
+.entrenamientohome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+
+
+
+
+.entrenamientoheader {
+    color: black;
+    font-size: 2rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+
+.gif {
+    margin: 1rem;
+    width: auto;
+}
+
+.entrenamientotitulo {
+    color: black;
+    font-size: 1rem;
+    background-color: #efddd1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.entrenamientotexto {
+    margin: 1rem;
+    background-color: #efddd1;
+}
+
+.entrenamientofooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* ------------------------- Animacion Entrenamiento ------------------------ */
+
+.gif:hover{
+    transform: translate(200px);
+    transition: all 1s;
+}
+
+/* --------------------------- Pagina de Contacto --------------------------- */
+
+.contactohome {
+    background-image: url(/Multimedia/Imagenes/fondooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+}
+
+.contactotitulo {
+    background-color: #efddd1;
+    font-size: 25px;
+}
+
+
+.gmail {
+    background-color: #efddd1;
+}
+
+.contactofooter {
+    padding: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* ------------------------------ Bootstrap CSS ----------------------------- */
+
+.bg-gatips{
+    background-color: #efddd1;
+}
+
+.navbar-text{
+    color: black;
+    border: 1px black solid;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+/* ----------------------------- Medias queries ----------------------------- */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.header-index{
+    width: 767px;
+}
+
+.Gaturiosidades{
+    width: 767px;
+}
+
+.footer{
+    display: flex;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
