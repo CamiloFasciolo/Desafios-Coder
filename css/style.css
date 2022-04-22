@@ -1,5 +1,6 @@
-/* ------------------------------ Header Index ------------------------------ */
-.Gatips {
+/* ------------------------------ Inicio Header's Extends Index,Cuidados,Alimentacion y Adopcion ------------------------------ */
+/* ----------------------------- Inicio Extends ----------------------------- */
+.entrenamientoheader, .adopcionheader, .alimentacionheader, .cuidadosheader, .Gatips {
   color: black;
   font-size: 2rem;
   background-color: #efddd1;
@@ -8,6 +9,7 @@
   justify-content: center;
 }
 
+/* ------------------------------- Fin Extends ------------------------------ */
 .Inicio {
   color: black;
   font-size: 1rem;
@@ -18,46 +20,7 @@
   list-style: none;
 }
 
-/* ----------------------------- Header Cuidados ---------------------------- */
-.cuidadosheader {
-  color: black;
-  font-size: 2rem;
-  background-color: #efddd1;
-  border: 1px black solid;
-  display: flex;
-  justify-content: center;
-}
-
-/* --------------------------- Header Alimentacion -------------------------- */
-.alimentacionheader {
-  color: black;
-  font-size: 2rem;
-  background-color: #efddd1;
-  border: 1px black solid;
-  display: flex;
-  justify-content: center;
-}
-
-/* ----------------------------- Header Adopcion ---------------------------- */
-.adopcionheader {
-  color: black;
-  font-size: 2rem;
-  background-color: #efddd1;
-  border: 1px black solid;
-  display: flex;
-  justify-content: center;
-}
-
-/* -------------------------- Header Entrenamiento -------------------------- */
-.entrenamientoheader {
-  color: black;
-  font-size: 2rem;
-  background-color: #efddd1;
-  border: 1px black solid;
-  display: flex;
-  justify-content: center;
-}
-
+/* ------------------------------ Fin Header's ------------------------------ */
 /* ----------------------------- Header Contacto ---------------------------- */
 .contactotitulo {
   background-color: #efddd1;
@@ -75,15 +38,6 @@
 }
 
 /* ------------------------------- Body Index ------------------------------- */
-.Gatips {
-  color: black;
-  font-size: 2rem;
-  background-color: #efddd1;
-  border: 1px black solid;
-  display: flex;
-  justify-content: center;
-}
-
 .Inicio {
   color: black;
   font-size: 1rem;
@@ -117,7 +71,7 @@
 }
 
 .Texto-curiosidades {
-  margin-left: 1rem;
+  margin: 1rem;
   background-color: #efddd1;
 }
 
@@ -295,5 +249,16 @@
   }
 }
 /* --------------------------- Fin Medias Queries --------------------------- */
+/* ----------------------------- Inicio Extends ----------------------------- */
+.Gatips, .cuidadosheader, .alimentacionheader, .adopcionheader, .entrenamientoheader {
+  color: black;
+  font-size: 2rem;
+  background-color: #efddd1;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------- Fin Extends ------------------------------ */
 
 /*# sourceMappingURL=style.css.map */

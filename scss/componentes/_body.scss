@@ -1,5 +1,6 @@
 /* ------------------------------- Home General ------------------------------- */
 
+@import '../base/mixins';
 .home {
     background-image: url(/Multimedia/Imagenes/fondooo.jpg);
     background-repeat: no-repeat;
@@ -9,15 +10,6 @@
 }
 
 /* ------------------------------- Body Index ------------------------------- */
-
-.Gatips {
-    color: black;
-    font-size: 2rem;
-    background-color: #efddd1;
-    border: 1px black solid;
-    display: flex;
-    justify-content: center;
-}
 
 .Inicio {
     color: black;
@@ -51,12 +43,9 @@
     justify-content: center;
 }
 
-.Texto-curiosidades {
-    margin-left: 1rem;
-    background-color: #efddd1;
-
+.Texto-curiosidades{
+    @include textos
 }
-
 /* ------------------------------ Body Cuidados ----------------------------- */
 
 .cuidadosimage {
@@ -74,8 +63,7 @@
 }
 
 .textoaseo {
-    margin: 1rem;
-    background-color: #efddd1;
+    @include textos
 }
 
 .cuidadoscepillo {
@@ -88,15 +76,13 @@
 }
 
 .textocepillo {
-    margin: 1rem;
-    background-color: #efddd1;
+    @include textos
 }
 
 /* ---------------------------- Body Alimentacion --------------------------- */
 
 .textoalimentacion {
-    margin: 1rem;
-    background-color: #efddd1;
+    @include textos
 }
 
 .servircomida {
@@ -125,8 +111,7 @@
 }
 
 .adopciontexto {
-    margin: 1rem;
-    background-color: #efddd1;
+    @include textos
 }
 
 /* --------------------------- Body Entrenamiento --------------------------- */
@@ -146,8 +131,7 @@
 }
 
 .entrenamientotexto {
-    margin: 1rem;
-    background-color: #efddd1;
+    @include textos
 }
 
 
